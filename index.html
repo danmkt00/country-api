@@ -5,9 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/index.css" />
-        <title>JS starter</title>
+        <title>Country API</title>
     </head>
     <body>
+        
+        <div id="container">
+            <h2>Type a Country Name to Learn About It Instantly</h2>
+            </br>
+            <div id="search-country">
+                <input
+                    type="text"
+                    id="searchCountry"
+                    placeholder="Search country..."
+                />
+                <button id="searchBtn">Search</button>
+            </div>
+            <div id="country-container"></div>
+        </div>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
